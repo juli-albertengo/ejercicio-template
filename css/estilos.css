@@ -37,6 +37,7 @@
     height: 100px; } }
 
 .prices__description {
+  cursor: pointer;
   text-decoration: underline; }
 
 .readmore__link {
