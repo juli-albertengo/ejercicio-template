@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.mainFont {
+  font-family: "Open Sans", sans-serif; }
+
+.button--styled {
+  background-color: #fcfcfc; }
+
+.pointer {
+  cursor: pointer; }
+
+.pointer:hover {
+  text-decoration: underline; }
+
+.titulo--principal {
+  font-size: 5rem; }
+
+@media (min-width: 768px) {
+  .titulo--principal {
+    letter-spacing: 7vw; } }
+
+@media (max-width: 768px) {
+  .contact {
+    text-align: left; } }
+
+.cta__outerDiv {
+  background-color: black; }
+  .cta__outerDiv .cta__a {
+    color: #fcfcfc;
+    text-decoration: underline; }
+  .cta__outerDiv .cta__a:hover {
+    color: #fcfcfc;
+    cursor: pointer; }
+
+@media (max-width: 428px) {
+  .cta__outerDiv {
+    margin: 10px;
+    height: 100px; } }
+
+.prices__description {
+  text-decoration: underline; }
+
+.readmore__link {
+  color: black;
+  text-decoration: underline; }
+
+.readmore__link:hover {
+  color: black;
+  text-decoration: underline;
+  cursor: pointer; }
+
+.team__position {
+  writing-mode: vertical-rl; }
+
+.teamMember {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+@media (max-width: 1024px) {
+  .teamMember {
+    display: flex;
+    flex-direction: row;
+    align-items: center; } }

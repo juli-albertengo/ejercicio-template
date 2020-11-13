@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+$fuente: 'Open Sans', sans-serif;
+$blanco: #fcfcfc;
+
+//Clase Fuente Principal
+.mainFont{
+    font-family: $fuente;
+}
+
+//Clase para botones
+.button--styled{
+    background-color: $blanco;
+}
+
+//Pointer para simular link
+.pointer{
+    cursor: pointer;
+}
+.pointer:hover{
+    text-decoration: underline;
+}
+
+//HEADER
+.titulo--principal{
+    font-size: 5rem;
+}
+
+@media(min-width: 768px){
+    .titulo--principal{
+        letter-spacing: 7vw;
+    }
+}
+
+@media(max-width: 768px){
+    .contact{
+      text-align: left;
+    }
+}
+
+//Call to action
+.cta__outerDiv{
+    background-color: black;
+
+    .cta__a{
+        color: $blanco;
+        text-decoration: underline;
+    }
+    .cta__a:hover{
+        color: $blanco;
+        cursor: pointer;
+    }
+}
+
+@media(max-width: 428px){
+    .cta__outerDiv{
+        margin: 10px;
+        height: 100px;
+    }
+}
+
+//Fourth Row - Prices
+.prices__description{
+    text-decoration: underline;
+}
+
+
+//Seventh Row aka Services
+.readmore__link{
+    color: black;
+    text-decoration: underline;
+}
+.readmore__link:hover{
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+//Eighth Row aka Team
+.team__position{
+    writing-mode: vertical-rl;
+}
+
+.teamMember{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media(max-width: 1024px){
+    .teamMember{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
